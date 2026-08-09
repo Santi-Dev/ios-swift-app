@@ -1,0 +1,33 @@
+name: iOS Swift App Builder
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Permitir ejecución manual desde Windows Builder
+
+jobs:
+  build_ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v3
+        
+      - name: Configurar entorno Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+          
+      - name: Compilar aplicación (xcodebuild)
+        run: |
+          xcodebuild clean build -scheme "App" -destination "generic/platform=iOS" CODE_SIGNING_ALLOWED=NO
+          
+      - name: Exportar artefacto
+        run: |
+          # Aquí se generarían los .app o .ipa reales
+          echo "Simulando exportación .ipa" > App.ipa
+          
+      - name: Subir binario .ipa para descarga en Windows
+        uses: actions/upload-artifact@v3
+        with:
+          name: iOS-App
+          path: App.ipa

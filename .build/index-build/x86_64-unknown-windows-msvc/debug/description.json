@@ -1,0 +1,853 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.xctest",
+      "packagePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows",
+      "productName" : "iOSSwiftWindowsAppPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "iOSSwiftWindowsAppPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.App-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\sources",
+      "importPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Models\\AppData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Views\\ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\iOSApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--3E3E78E87BD44493.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "App",
+      "moduleOutputPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\App.swiftmodule",
+      "objects" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\AppData.swift.o",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\ContentView.swift.o",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\iOSApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j20",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\include\\App-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "ios_swift_windows"
+      ],
+      "outputFileMapPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\App.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Models\\AppData.swift",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Views\\ContentView.swift",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\iOSApp.swift"
+      ],
+      "tempsPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AppTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\sources",
+      "importPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Tests\\AppTests\\AppTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--3E3E78E87BD44493.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\App.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AppTests",
+      "moduleOutputPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\AppTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\AppTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j20",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "ios_swift_windows"
+      ],
+      "outputFileMapPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\AppTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Tests\\AppTests\\AppTests.swift"
+      ],
+      "tempsPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.iOSSwiftWindowsAppPackageDiscoveredTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\sources",
+      "importPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\AppTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--3E3E78E87BD44493.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\AppTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "iOSSwiftWindowsAppPackageDiscoveredTests",
+      "moduleOutputPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\iOSSwiftWindowsAppPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\AppTests.swift.o",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j20",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\include\\iOSSwiftWindowsAppPackageDiscoveredTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "ios_swift_windows"
+      ],
+      "outputFileMapPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\iOSSwiftWindowsAppPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\AppTests.swift",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+      ],
+      "tempsPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.iOSSwiftWindowsAppPackageTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\sources",
+      "importPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.derived\\runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--3E3E78E87BD44493.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\AppTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\iOSSwiftWindowsAppPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "iOSSwiftWindowsAppPackageTests",
+      "moduleOutputPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\iOSSwiftWindowsAppPackageTests.swiftmodule",
+      "objects" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j20",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\include\\iOSSwiftWindowsAppPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "ios_swift_windows"
+      ],
+      "outputFileMapPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\iOSSwiftWindowsAppPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.derived\\runner.swift"
+      ],
+      "tempsPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "App" : [
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "App",
+      "-package-name",
+      "ios_swift_windows",
+      "-c",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Models\\AppData.swift",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Views\\ContentView.swift",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\iOSApp.swift",
+      "-I",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j20",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\include\\App-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "ios_swift_windows",
+      "-driver-use-frontend-path",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "AppTests" : [
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "AppTests",
+      "-package-name",
+      "ios_swift_windows",
+      "-c",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Tests\\AppTests\\AppTests.swift",
+      "-I",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j20",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "ios_swift_windows",
+      "-driver-use-frontend-path",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "iOSSwiftWindowsAppPackageDiscoveredTests" : [
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "iOSSwiftWindowsAppPackageDiscoveredTests",
+      "-package-name",
+      "ios_swift_windows",
+      "-c",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\AppTests.swift",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\all-discovered-tests.swift",
+      "-I",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j20",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\include\\iOSSwiftWindowsAppPackageDiscoveredTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "ios_swift_windows",
+      "-driver-use-frontend-path",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "iOSSwiftWindowsAppPackageTests" : [
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "iOSSwiftWindowsAppPackageTests",
+      "-package-name",
+      "ios_swift_windows",
+      "-c",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.derived\\runner.swift",
+      "-I",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j20",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\include\\iOSSwiftWindowsAppPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\SDKs\\Windows.sdk\\",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\XCTest-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.3\\Windows.platform\\Developer\\Library\\Testing-6.3.3\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "ios_swift_windows",
+      "-driver-use-frontend-path",
+      "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"
+    ]
+  },
+  "targetDependencyMap" : {
+    "App" : [
+
+    ],
+    "AppTests" : [
+      "App"
+    ],
+    "iOSSwiftWindowsAppPackageDiscoveredTests" : [
+      "AppTests",
+      "App"
+    ],
+    "iOSSwiftWindowsAppPackageTests" : [
+      "iOSSwiftWindowsAppPackageDiscoveredTests",
+      "AppTests",
+      "App"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Models\\AppData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Views\\ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\iOSApp.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\App.build\\sources"
+    },
+    "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Tests\\AppTests\\AppTests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\sources"
+    },
+    "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\AppTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\sources"
+    },
+    "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.derived\\runner.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\sources"
+    },
+    "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--3E3E78E87BD44493.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.3+Asserts\\usr\\bin\\swiftc.exe"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version--3E3E78E87BD44493.txt"
+    }
+  }
+}

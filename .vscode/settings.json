@@ -1,0 +1,7 @@
+{
+    "swift.path": "",
+    "swift.buildArguments": [],
+    "swift.format.enable": true,
+    "editor.formatOnSave": true,
+    "swift.sourcekit-lsp.serverPath": ""
+}

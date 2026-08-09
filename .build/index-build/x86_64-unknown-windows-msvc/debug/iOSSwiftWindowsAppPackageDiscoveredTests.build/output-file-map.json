@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\primary.swiftdeps"
+  },
+  "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\AppTests.swift": {
+    "dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\AppTests.d",
+    "object": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\AppTests.swift.o",
+    "swiftmodule": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\AppTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\AppTests.swiftdeps",
+    "diagnostics": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\AppTests.dia"
+  },
+  "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.derived\\all-discovered-tests.swift": {
+    "dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\all-discovered-tests.d",
+    "object": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\all-discovered-tests.swift.o",
+    "swiftmodule": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\all-discovered-tests.swiftdeps",
+    "diagnostics": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageDiscoveredTests.build\\all-discovered-tests.dia"
+  }
+}

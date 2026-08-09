@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\primary.swiftdeps"
+  },
+  "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Models\\AppData.swift": {
+    "dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\AppData.d",
+    "object": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\AppData.swift.o",
+    "swiftmodule": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\AppData~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\AppData.swiftdeps",
+    "diagnostics": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\AppData.dia"
+  },
+  "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\Views\\ContentView.swift": {
+    "dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\ContentView.d",
+    "object": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\ContentView.swift.o",
+    "swiftmodule": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\ContentView~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\ContentView.swiftdeps",
+    "diagnostics": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\ContentView.dia"
+  },
+  "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Sources\\App\\iOSApp.swift": {
+    "dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\iOSApp.d",
+    "object": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\iOSApp.swift.o",
+    "swiftmodule": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\iOSApp~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\iOSApp.swiftdeps",
+    "diagnostics": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\iOSApp.dia"
+  }
+}

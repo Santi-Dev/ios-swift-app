@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\primary.swiftdeps"
+  },
+  "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\Tests\\AppTests\\AppTests.swift": {
+    "dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\AppTests.d",
+    "object": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\AppTests.swift.o",
+    "swiftmodule": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\AppTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\AppTests.swiftdeps",
+    "diagnostics": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\AppTests.dia"
+  }
+}

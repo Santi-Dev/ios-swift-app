@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\primary.swiftdeps"
+  },
+  "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.derived\\runner.swift": {
+    "dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\runner.d",
+    "object": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\runner.swift.o",
+    "swiftmodule": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\runner~partial.swiftmodule",
+    "swift-dependencies": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\runner.swiftdeps",
+    "diagnostics": "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\iOSSwiftWindowsAppPackageTests.build\\runner.dia"
+  }
+}

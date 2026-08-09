@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Swift: Run Local Code",
+            "type": "shell",
+            "command": "swift run",
+            "group": "build",
+            "problemMatcher": [
+                "$swiftc"
+            ]
+        },
+        {
+            "label": "iOS Builder: Trigger Cloud IPA Build",
+            "type": "shell",
+            "command": "powershell.exe -ExecutionPolicy Bypass -File .\\builder.ps1 -Build",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
