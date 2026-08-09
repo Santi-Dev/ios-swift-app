@@ -1,0 +1,15 @@
+name: App
+options:
+  bundleIdPrefix: com.example
+targets:
+  App:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - Sources/App
+    info:
+      path: Info.plist
+      properties:
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
