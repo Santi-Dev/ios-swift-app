@@ -19,7 +19,7 @@ jobs:
           
       - name: Compilar aplicación (xcodebuild)
         run: |
-          xcodebuild clean build -scheme "App" -destination "generic/platform=iOS" CODE_SIGNING_ALLOWED=NO
+          xcodebuild clean build -scheme "iOSSwiftWindowsApp" -destination "generic/platform=iOS" CODE_SIGNING_ALLOWED=NO
           
       - name: Exportar artefacto
         run: |

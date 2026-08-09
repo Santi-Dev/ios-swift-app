@@ -8,7 +8,7 @@ let package = Package(
         .macOS(.v13)
     ],
     products: [
-        .library(
+        .executable(
             name: "App",
             targets: ["App"]),
     ],
@@ -16,7 +16,7 @@ let package = Package(
         // Aquí puedes añadir dependencias 100% Swift, ej. Alamofire
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "App",
             dependencies: []),
         .testTarget(
