@@ -47,7 +47,7 @@
           "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\sources"
         }
       ],
-      "isLibrary" : true,
+      "isLibrary" : false,
       "moduleName" : "App",
       "moduleOutputPath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\App.swiftmodule",
       "objects" : [
@@ -72,11 +72,11 @@
         "-module-cache-path",
         "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
         "-parseable-output",
-        "-parse-as-library",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "App_main",
         "-static",
-        "-emit-objc-header",
-        "-emit-objc-header-path",
-        "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\include\\App-Swift.h",
         "-color-diagnostics",
         "-swift-version",
         "5",
@@ -153,7 +153,7 @@
         },
         {
           "kind" : "file",
-          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\App.swiftmodule"
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.exe"
         },
         {
           "kind" : "file",
@@ -487,11 +487,11 @@
       "-module-cache-path",
       "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
       "-parseable-output",
-      "-parse-as-library",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "App_main",
       "-static",
-      "-emit-objc-header",
-      "-emit-objc-header-path",
-      "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\include\\App-Swift.h",
       "-color-diagnostics",
       "-swift-version",
       "5",
@@ -806,6 +806,32 @@
         }
       ],
       "outputFilePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\sources"
+    },
+    "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.product\\Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\App.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\AppData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.build\\iOSApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\App.product\\Objects.LinkFileList"
     },
     "C:\\Users\\camil\\.gemini\\antigravity\\scratch\\ios-swift-windows\\.build\\x86_64-unknown-windows-msvc\\debug\\AppTests.build\\sources" : {
       "alwaysOutOfDate" : false,

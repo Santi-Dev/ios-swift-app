@@ -26,10 +26,17 @@ if ($CheckOnly) {
 if ($Build) {
     Write-Host "Iniciando compilación en la nube (GitHub Actions)..." -ForegroundColor Yellow
     
+    $gitPath = Get-Command "git" -ErrorAction SilentlyContinue
+    if (-not $gitPath) {
+        Write-Host "[ERROR] Necesitas Git para enviar el código a GitHub." -ForegroundColor Red
+        Write-Host "Instálalo y REINICIA LA CONSOLA: winget install Git.Git" -ForegroundColor Red
+        exit 1
+    }
+    
     $ghPath = Get-Command "gh" -ErrorAction SilentlyContinue
     if (-not $ghPath) {
         Write-Host "[ERROR] Necesitas GitHub CLI para disparar el build automáticamente." -ForegroundColor Red
-        Write-Host "Instálalo con: winget install GitHub.cli" -ForegroundColor Red
+        Write-Host "Instálalo y REINICIA LA CONSOLA: winget install GitHub.cli" -ForegroundColor Red
         exit 1
     }
     
