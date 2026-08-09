@@ -43,7 +43,14 @@ if ($Build) {
     Write-Host "Asegurando que los cambios estén en GitHub..."
     git add .
     git commit -m "Trigger Cloud Build"
-    git push origin main
+    
+    Write-Host "Subiendo código a GitHub..."
+    git push origin HEAD
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "[ERROR] ¡Falló la subida a GitHub! (git push falló)." -ForegroundColor Red
+        Write-Host "Por favor revisa el error arriba. El código no subió a la nube." -ForegroundColor Yellow
+        exit 1
+    }
     
     Write-Host "Disparando el Mac Runner en GitHub Actions..." -ForegroundColor Cyan
     gh workflow run ios-build.yml
