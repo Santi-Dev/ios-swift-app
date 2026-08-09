@@ -19,12 +19,13 @@ jobs:
           
       - name: Compilar aplicación (xcodebuild)
         run: |
-          xcodebuild clean build -scheme "iOSSwiftWindowsApp" -destination "generic/platform=iOS" CODE_SIGNING_ALLOWED=NO
+          xcodebuild clean build -scheme "iOSSwiftWindowsApp" -destination "generic/platform=iOS" CODE_SIGNING_ALLOWED=NO CONFIGURATION_BUILD_DIR=build
           
-      - name: Exportar artefacto
+      - name: Empaquetar artefacto en .ipa
         run: |
-          # Aquí se generarían los .app o .ipa reales
-          echo "Simulando exportación .ipa" > App.ipa
+          mkdir -p Payload
+          mv build/*.app Payload/
+          zip -r App.ipa Payload
           
       - name: Subir binario .ipa para descarga en Windows
         uses: actions/upload-artifact@v4
